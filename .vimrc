@@ -24,6 +24,8 @@ set shiftwidth=2
 
 set pastetoggle=<F2>
 
+set mouse=a
+
 set backup
 set backupdir=~/.vim/backups
 set directory=~/.vim/tmp
@@ -67,6 +69,9 @@ else
 endif
 
 inoremap kj <Esc>
+
+" <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 au BufNewFile,BufRead *.py setlocal softtabstop=4 shiftwidth=4
 
