@@ -3,7 +3,7 @@
 ymmv
 
 # Quick Start #
-    git clone git@github.com:mmiermans/dotvim.git ~/.vim
+    git clone https://github.com/mmiermans/dotvim.git ~/.vim
     ln -sf ~/.vim/.vimrc ~/.vimrc
     cd .vim
     git submodule init
